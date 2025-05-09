@@ -1,7 +1,7 @@
 # Trinity
 A fully remastered version of "MC Downloader" another project by me.
 
-Questions that probally will be asked
+# Questions that probally will be asked
 
 Q: "Are these clients safe"
 -----------------------------------------------------
