@@ -16,4 +16,4 @@ Q: "Can I make my own version of this"
 A: "Yes"
 
 Main Menu UI
-![Screenshot 2025-05-09 180643](https://github.com/user-attachments/assets/cf058b59-53cc-452c-890f-c1570844603e)
+![Screenshot 2025-05-09 193555](https://github.com/user-attachments/assets/221e945d-8e54-412e-828f-e237eb9cf3bc)
