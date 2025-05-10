@@ -1,0 +1,20 @@
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.exe
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.deps.json
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.runtimeconfig.json
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.dll
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.pdb
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.CrackedClientsForm.resources
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Form1.resources
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Free 1.12.2 - 1.21.5 Clients.resources
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Resources.resources
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Pre19ClientsForm.resources
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.AssemblyInfo.vb
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.dll
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\refint\Trinity.dll
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.pdb
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.genruntimeconfig.cache
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\ref\Trinity.dll
