@@ -24,35 +24,12 @@ Public Class Pre19ClientsForm
         Me.Text = "Cracked Clients Pre 1.9"
     End Sub
 
-    ' Handle MouseDown event
-    Private Sub Pre19ClientsForm_MouseDown(sender As Object, e As MouseEventArgs) Handles Me.MouseDown
-        If e.Button = MouseButtons.Left Then
-            isDragging = True
-            startPoint = e.Location
-        End If
-    End Sub
 
-    ' Handle MouseMove event
-    Private Sub Pre19ClientsForm_MouseMove(sender As Object, e As MouseEventArgs) Handles Me.MouseMove
-        If isDragging Then
-            Dim newPoint As Point = Me.Location + (e.Location - startPoint)
-            Me.Location = newPoint
-        End If
-    End Sub
-
-    ' Handle MouseUp event to stop dragging
-    Private Sub Pre19ClientsForm_MouseUp(sender As Object, e As MouseEventArgs) Handles Me.MouseUp
-        If e.Button = MouseButtons.Left Then
-            isDragging = False
-        End If
-    End Sub
-
-    ' Remove duplicate declaration of Back button
-    Private Sub Back_Click(sender As Object, e As EventArgs) Handles Back.Click
+    Private Sub Back_Click(sender As Object, e As EventArgs)
         ' Return to the main form
-        Dim mainForm As New Form1()
-        mainForm.Show()
-        Me.Close() ' Close the current form
+        Dim mainForm As New Form1
+        mainForm.Show
+        Close ' Close the current form
     End Sub
 
     Private Sub risedl_Click(sender As Object, e As EventArgs) Handles risedl.Click
@@ -113,7 +90,7 @@ Public Class Pre19ClientsForm
         End Try
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
+    Private Sub page2_Click(sender As Object, e As EventArgs) Handles page2.Click
+        Form1.switchpanel(Pre19ClientsFormPage2)
     End Sub
 End Class

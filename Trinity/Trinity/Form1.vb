@@ -34,16 +34,7 @@ Public Class Form1
         Me.Text = "Main Menu"
 
         ' Initially show the main menu
-        ShowMainMenu()
-
-        meteordl.Visible = True
-        Catleandl.Visible = True
-        liquidbouncedl.Visible = True
-        earthhackdl.Visible = True
-        meteorlabel.Visible = True
-        catleanlabel.Visible = True
-        liquidlabel.Visible = True
-        earthhacklabel.Visible = True
+        switchpanel(FreeClientsForm)
         MENUNAME.Text = "|| Free Client's Menu ||"
     End Sub
 
@@ -75,184 +66,65 @@ Public Class Form1
         End If
     End Sub
 
-    ' Show Main Menu
-    Private Sub ShowMainMenu()
-        ' Hide all other sections except navigation buttons
-        HideAllSections()
 
-        ' Show main menu controls
-        crackedclients.Visible = True
-        freeclients.Visible = True
-        crackedpre19clients.Visible = True
-    End Sub
 
-    ' Show Pre 1.9 Clients Section
-    Private Sub ShowPre19Clients()
-        HideAllSections()
-
-        ' Show Pre 1.9 Clients controls
-        risedl.Visible = True
-        vapedl.Visible = True
-        slinkydl.Visible = True
-        myaudl.Visible = True
-        opaldl.Visible = True
-        riselabel.Visible = True
-        vapelabel.Visible = True
-        Slinky.Visible = True
-        myaulabel.Visible = True
-        opallabel.Visible = True
-        MENUNAME.Text = "|| Pre 1.9 Cracked Client's ||"
-    End Sub
-
-    ' Show Cracked Clients Section
-    Private Sub ShowCrackedClients()
-        HideAllSections()
-
-        ' Show Cracked Clients controls
-        miodl.Visible = True
-        rusherdlr.Visible = True
-        futuredl.Visible = True
-        rusherolddl.Visible = True
-        boze12.Visible = True
-        bozev61.Visible = True
-        miolabel.Visible = True
-        rusherlabel.Visible = True
-        futurelabel.Visible = True
-        oldrusherlabel.Visible = True
-        boze12label.Visible = True
-        boze61label.Visible = True
-        MENUNAME.Text = "|| Cracked Client's Menu ||"
-    End Sub
-
-    ' Show Free Clients Section
-    Private Sub ShowFreeClients()
-        HideAllSections()
-
-        ' Show Free Clients controls
-        meteordl.Visible = True
-        Catleandl.Visible = True
-        liquidbouncedl.Visible = True
-        earthhackdl.Visible = True
-        meteorlabel.Visible = True
-        catleanlabel.Visible = True
-        liquidlabel.Visible = True
-        earthhacklabel.Visible = True
-        MENUNAME.Text = "|| Free Client's Menu ||"
-    End Sub
-
-    ' Hide all sections except navigation buttons
-    Private Sub HideAllSections()
-        ' Do not hide navigation buttons
-        ' Hide Pre 1.9 Clients controls
-        risedl.Visible = False
-        vapedl.Visible = False
-        slinkydl.Visible = False
-        myaudl.Visible = False
-        opaldl.Visible = False
-        riselabel.Visible = False
-        vapelabel.Visible = False
-        Slinky.Visible = False
-        myaulabel.Visible = False
-        opallabel.Visible = False
-        ' Hide Cracked Clients controls
-        miodl.Visible = False
-        rusherdlr.Visible = False
-        futuredl.Visible = False
-        rusherolddl.Visible = False
-        boze12.Visible = False
-        bozev61.Visible = False
-        miolabel.Visible = False
-        rusherlabel.Visible = False
-        futurelabel.Visible = False
-        oldrusherlabel.Visible = False
-        boze12label.Visible = False
-        boze61label.Visible = False
-
-        ' Hide Free Clients controls
-        meteordl.Visible = False
-        Catleandl.Visible = False
-        liquidbouncedl.Visible = False
-        earthhackdl.Visible = False
-        meteorlabel.Visible = False
-        catleanlabel.Visible = False
-        liquidlabel.Visible = False
-        earthhacklabel.Visible = False
-    End Sub
-
-    ' Button Click Handlers
-    Private Sub crackedclients_Click(sender As Object, e As EventArgs) Handles crackedclients.Click
-        ShowCrackedClients()
-    End Sub
-
-    Private Sub freeclients_Click(sender As Object, e As EventArgs) Handles freeclients.Click
-        ShowFreeClients()
-    End Sub
-
-    Private Sub crackedpre19clients_Click(sender As Object, e As EventArgs) Handles crackedpre19clients.Click
-        ShowPre19Clients()
-    End Sub
-
-    Private Sub Back_Click(sender As Object, e As EventArgs)
-        ShowMainMenu()
-    End Sub
-
-    Private Sub risedl_Click(sender As Object, e As EventArgs) Handles risedl.Click
+    Private Sub risedl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/vb-ps/RiseCrack/releases/download/rise/RISE.CRSCK.rar")
     End Sub
 
-    Private Sub vapedl_Click(sender As Object, e As EventArgs) Handles vapedl.Click
+    Private Sub vapedl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/vb-ps/vapecrack/releases/download/gdfdfgs/1.8.9.Lunar.vape-v4.17-cracked.zip")
     End Sub
 
-    Private Sub slinkydl_Click(sender As Object, e As EventArgs) Handles slinkydl.Click
+    Private Sub slinkydl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/vb-ps/Clientene/releases/download/hdfghfg/slinkycrack.1.zip")
     End Sub
 
-    Private Sub myaudl_Click(sender As Object, e As EventArgs) Handles myaudl.Click
+    Private Sub myaudl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/vb-ps/Clientene/releases/download/etr/Myau-240925-cr.zip")
     End Sub
 
-    Private Sub opaldl_Click(sender As Object, e As EventArgs) Handles opaldl.Click
+    Private Sub opaldl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/vb-ps/Clientene/releases/download/ads/1.21.Fabric.Opal.011225.cracked.2.zip")
     End Sub
 
-    Private Sub liquidbouncedl_Click(sender As Object, e As EventArgs) Handles liquidbouncedl.Click
+    Private Sub liquidbouncedl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/CCBlueX/LiquidLauncher/releases/download/v0.4.3/LiquidLauncher_0.4.3_x64_en-US.msi")
     End Sub
 
-    Private Sub earthhackdl_Click(sender As Object, e As EventArgs) Handles earthhackdl.Click
+    Private Sub earthhackdl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/3arthqu4ke/3arthh4ck/releases/download/1.8.5/3arthh4ck-1.8.5-release.jar")
     End Sub
 
-    Private Sub Catleandl_Click(sender As Object, e As EventArgs) Handles Catleandl.Click
+    Private Sub Catleandl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/vb-ps/CLDL/releases/download/Clpicker/catlean.jar")
     End Sub
-    Private Sub meteordl_Click(sender As Object, e As EventArgs) Handles meteordl.Click
+    Private Sub meteordl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://meteorclient.com/api/download", "meteor.jar")
     End Sub
 
-    Private Sub miodl_Click(sender As Object, e As EventArgs) Handles miodl.Click
+    Private Sub miodl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://github.com/TwoNick/mio/releases/download/v2.1.7-patch2/mio-loader.jar")
         DownloadFile("https://github.com/TwoNick/mio/releases/download/v2.1.7-patch2/mio.jar")
     End Sub
 
-    Private Sub rusherdlr_Click(sender As Object, e As EventArgs) Handles rusherdlr.Click
+    Private Sub rusherdlr_Click(sender As Object, e As EventArgs)
         DownloadFile("https://crystalpvp.ru/rusherhack/rushercrack-2.0.jar")
     End Sub
 
-    Private Sub futuredl_Click(sender As Object, e As EventArgs) Handles futuredl.Click
+    Private Sub futuredl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://crystalpvp.ru/future/Installer.jar")
     End Sub
 
-    Private Sub rusherolddl_Click(sender As Object, e As EventArgs) Handles rusherolddl.Click
+    Private Sub rusherolddl_Click(sender As Object, e As EventArgs)
         DownloadFile("https://crystalpvp.ru/rusherhack/rushercrack.jar")
     End Sub
 
-    Private Sub boze12_Click(sender As Object, e As EventArgs) Handles boze12.Click
+    Private Sub boze12_Click(sender As Object, e As EventArgs)
         DownloadFile("https://crystalpvp.ru/bozeupdate/bozecrack.zip")
     End Sub
 
-    Private Sub bozev61_Click(sender As Object, e As EventArgs) Handles bozev61.Click
+    Private Sub bozev61_Click(sender As Object, e As EventArgs)
         DownloadFile("https://crystalpvp.ru/boze/finalboze.zip")
     End Sub
 
@@ -277,5 +149,45 @@ Public Class Form1
 
     Private Sub ext_Click(sender As Object, e As EventArgs) Handles ext.Click
         Application.Exit()
+    End Sub
+
+    Private Sub freeclients_Click(sender As Object, e As EventArgs) Handles freeclients.Click 'Thank you for the multi form's in one form's i could not figure this out thank you. - phy234 on youtube
+        switchpanel(FreeClientsForm)
+        MENUNAME.Text = "|| Free Client's Menu ||"
+    End Sub
+    Sub switchpanel(ByVal panel As Form)
+        SelectionBOx.Controls.Clear()
+        panel.TopLevel = False
+        SelectionBOx.Controls.Add(panel)
+        panel.Show()
+    End Sub
+
+    Private Sub crackedclients_Click(sender As Object, e As EventArgs) Handles crackedclients.Click
+        switchpanel(CrackedClientsForm)
+        MENUNAME.Text = "|| Cracked Client's Menu ||"
+    End Sub
+
+    Private Sub crackedpre19clients_Click(sender As Object, e As EventArgs) Handles crackedpre19clients.Click
+        switchpanel(Pre19ClientsForm)
+        MENUNAME.Text = "|| Pre 1.9 Cracked Client's Menu ||"
+    End Sub
+
+    Private Sub opnmodsfolder_Click(sender As Object, e As EventArgs) Handles opnmodsfolder.Click
+        Try
+            ' Get the path to the Minecraft mods folder
+            Dim modsFolderPath As String = IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "mods")
+
+            ' Check if the folder exists
+            If IO.Directory.Exists(modsFolderPath) Then
+                ' Open the folder in File Explorer
+                Process.Start("explorer.exe", modsFolderPath)
+            Else
+                ' Notify the user if the folder does not exist
+                MsgBox("The Minecraft mods folder does not exist on this system.", MsgBoxStyle.Exclamation, "Folder Not Found")
+            End If
+        Catch ex As Exception
+            ' Handle any errors
+            MsgBox("An error occurred while trying to open the mods folder: " & ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
     End Sub
 End Class

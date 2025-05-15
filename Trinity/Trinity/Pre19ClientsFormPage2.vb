@@ -1,56 +1,50 @@
-﻿Imports System.Drawing.Drawing2D
-
-Public Class CrackedClientsForm
-    ' Variables to track mouse position
-    Private isDragging As Boolean = False
-    Private startPoint As Point
-
-    Private Sub CrackedClientsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Create a GraphicsPath to define the rounded rectangle
-        Dim path As New GraphicsPath()
-        Dim radius As Integer = 30 ' Adjust the radius for roundness
-        Dim rect As New Rectangle(0, 0, Me.Width, Me.Height)
-
-        ' Add rounded rectangle to the path
-        path.AddArc(rect.X, rect.Y, radius, radius, 180, 90)
-        path.AddArc(rect.Right - radius, rect.Y, radius, radius, 270, 90)
-        path.AddArc(rect.Right - radius, rect.Bottom - radius, radius, radius, 0, 90)
-        path.AddArc(rect.X, rect.Bottom - radius, radius, radius, 90, 90)
-        path.CloseFigure()
-
-        ' Apply the path as the form's region
-        Me.Region = New Region(path)
-
-        Me.Text = "Cracked Clients Anarchy"
-
+﻿Public Class Pre19ClientsFormPage2
+    Private Sub page1_Click(sender As Object, e As EventArgs) Handles page1.Click
+        Form1.switchpanel(Pre19ClientsForm)
     End Sub
 
-    ' Handle MouseDown event
-
-
-    Private Sub miodl_Click(sender As Object, e As EventArgs) Handles miodl.Click
-        DownloadFile("https://github.com/TwoNick/mio/releases/download/v2.1.7-patch2/mio-loader.jar")
-        DownloadFile("https://github.com/TwoNick/mio/releases/download/v2.1.7-patch2/mio.jar")
+    Private Sub moondl_Click(sender As Object, e As EventArgs) Handles moondl.Click
+        DownloadFile("https://github.com/vb-ps/Clientene/releases/download/moon/Moon.rar")
     End Sub
 
-    Private Sub rusherdl_Click(sender As Object, e As EventArgs) Handles rusherdl.Click
-        DownloadFile("https://crystalpvp.ru/rusherhack/rushercrack-2.0.jar")
+    Private Sub augdl_Click(sender As Object, e As EventArgs) Handles augdl.Click
+        DownloadFile("https://github.com/vb-ps/Clientene/releases/download/dsafsdf/Augustus.b2.6.rar")
     End Sub
 
-    Private Sub futuredl_Click(sender As Object, e As EventArgs) Handles futuredl.Click
-        DownloadFile("https://crystalpvp.ru/future/Installer.jar")
+    Private Sub azuradl_Click(sender As Object, e As EventArgs) Handles azuradl.Click
+        DownloadFile("https://github.com/vb-ps/Clientene/releases/download/fdas/Azazaaa.zip")
     End Sub
 
-    Private Sub rusherolddl_Click(sender As Object, e As EventArgs) Handles rusherolddl.Click
-        DownloadFile("https://crystalpvp.ru/rusherhack/rushercrack.jar")
+    Private Sub sigmadl_Click(sender As Object, e As EventArgs) Handles sigmadl.Click
+        DownloadFile("https://github.com/Sigma-Skidder-Team/SigmaArchive/raw/refs/heads/main/Sigma5-b11%5B2020%5D.tar.xz")
     End Sub
 
-    Private Sub boze12_Click(sender As Object, e As EventArgs) Handles boze12.Click
-        DownloadFile("https://crystalpvp.ru/bozeupdate/bozecrack.zip")
+    Private Sub fdpdl_Click(sender As Object, e As EventArgs) Handles fdpdl.Click
+        DownloadFile("https://github.com/SkidderMC/FDPClient/releases/download/b14/FDPClient-b14.jar")
     End Sub
 
-    Private Sub bozev61_Click(sender As Object, e As EventArgs) Handles bozev61.Click
-        DownloadFile("https://crystalpvp.ru/boze/finalboze.zip")
+    Private Sub dortdl_Click(sender As Object, e As EventArgs) Handles dortdl.Click
+        DownloadFile("https://github.com/vb-ps/Clientene/releases/download/dsafdsfa/Dortware.zip")
+    End Sub
+
+    Private Sub ravenbsdl_Click(sender As Object, e As EventArgs) Handles ravenbsdl.Click
+        DownloadFile("https://github.com/Strangerrrs/Raven-bS/releases/download/12/raven-bS-12.jar")
+    End Sub
+
+    Private Sub risesrcdl_Click(sender As Object, e As EventArgs) Handles risesrcdl.Click
+        DownloadFile("https://github.com/vb-ps/Clientene/releases/download/fgdasdsdfg/Client-release2.1.zip")
+    End Sub
+
+    Private Sub liquidlegacydl_Click(sender As Object, e As EventArgs) Handles liquidlegacydl.Click
+        DownloadFile("https://github.com/CCBlueX/LiquidBounce/archive/refs/tags/b100.zip")
+    End Sub
+
+    Private Sub vapelitedl_Click(sender As Object, e As EventArgs) Handles vapelitedl.Click
+        MsgBox("Vape Lite is not available for download at the moment.", MsgBoxStyle.Information, "Notice")
+    End Sub
+
+    Private Sub crossdl_Click(sender As Object, e As EventArgs) Handles crossdl.Click
+        DownloadFile("https://github.com/shxp3/CrossSine/releases/download/B47/CrossSine-b47.jar")
     End Sub
 
     Private Sub DownloadFile(url As String)

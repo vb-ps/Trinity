@@ -5,7 +5,6 @@ C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.dll
 C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Trinity.pdb
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.CrackedClientsForm.resources
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Form1.resources
-C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Free 1.12.2 - 1.21.5 Clients.resources
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Resources.resources
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Pre19ClientsForm.resources
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.vbproj.GenerateResource.cache
@@ -18,3 +17,5 @@ C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\refint\Trini
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.pdb
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.genruntimeconfig.cache
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\ref\Trinity.dll
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.FreeClientsForm.resources
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Pre19ClientsFormPage2.resources

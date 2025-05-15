@@ -22,7 +22,6 @@ Partial Class Pre19ClientsForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Back = New Button()
         risedl = New Button()
         vapedl = New Button()
         Label1 = New Label()
@@ -34,25 +33,15 @@ Partial Class Pre19ClientsForm
         Label5 = New Label()
         Label6 = New Label()
         myaudl = New Button()
+        page2 = New Button()
         SuspendLayout()
-        ' 
-        ' Back
-        ' 
-        Back.BackColor = Color.DarkSlateGray
-        Back.ForeColor = Color.White
-        Back.Location = New Point(260, 359)
-        Back.Name = "Back"
-        Back.Size = New Size(75, 23)
-        Back.TabIndex = 0
-        Back.Text = "Back"
-        Back.UseVisualStyleBackColor = False
         ' 
         ' risedl
         ' 
         risedl.BackColor = Color.DarkSlateGray
         risedl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         risedl.ForeColor = SystemColors.Control
-        risedl.Location = New Point(189, 86)
+        risedl.Location = New Point(187, 58)
         risedl.Name = "risedl"
         risedl.Size = New Size(75, 23)
         risedl.TabIndex = 1
@@ -64,7 +53,7 @@ Partial Class Pre19ClientsForm
         vapedl.BackColor = Color.DarkSlateGray
         vapedl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         vapedl.ForeColor = SystemColors.Control
-        vapedl.Location = New Point(189, 255)
+        vapedl.Location = New Point(187, 230)
         vapedl.Name = "vapedl"
         vapedl.Size = New Size(75, 23)
         vapedl.TabIndex = 2
@@ -76,7 +65,7 @@ Partial Class Pre19ClientsForm
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = SystemColors.ButtonFace
-        Label1.Location = New Point(19, 90)
+        Label1.Location = New Point(21, 62)
         Label1.Name = "Label1"
         Label1.Size = New Size(164, 15)
         Label1.TabIndex = 3
@@ -87,7 +76,7 @@ Partial Class Pre19ClientsForm
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = SystemColors.ButtonFace
-        Label2.Location = New Point(19, 259)
+        Label2.Location = New Point(20, 234)
         Label2.Name = "Label2"
         Label2.Size = New Size(165, 15)
         Label2.TabIndex = 4
@@ -109,7 +98,7 @@ Partial Class Pre19ClientsForm
         slinkydl.BackColor = Color.DarkSlateGray
         slinkydl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         slinkydl.ForeColor = SystemColors.Control
-        slinkydl.Location = New Point(189, 140)
+        slinkydl.Location = New Point(187, 116)
         slinkydl.Name = "slinkydl"
         slinkydl.Size = New Size(75, 23)
         slinkydl.TabIndex = 6
@@ -121,7 +110,7 @@ Partial Class Pre19ClientsForm
         opaldl.BackColor = Color.DarkSlateGray
         opaldl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         opaldl.ForeColor = SystemColors.Control
-        opaldl.Location = New Point(189, 202)
+        opaldl.Location = New Point(187, 169)
         opaldl.Name = "opaldl"
         opaldl.Size = New Size(75, 23)
         opaldl.TabIndex = 7
@@ -133,7 +122,7 @@ Partial Class Pre19ClientsForm
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ButtonFace
-        Label4.Location = New Point(37, 144)
+        Label4.Location = New Point(41, 120)
         Label4.Name = "Label4"
         Label4.Size = New Size(144, 15)
         Label4.TabIndex = 8
@@ -144,7 +133,7 @@ Partial Class Pre19ClientsForm
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 6.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = SystemColors.ButtonFace
-        Label5.Location = New Point(4, 208)
+        Label5.Location = New Point(5, 175)
         Label5.Name = "Label5"
         Label5.Size = New Size(180, 12)
         Label5.TabIndex = 9
@@ -155,7 +144,7 @@ Partial Class Pre19ClientsForm
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = SystemColors.ButtonFace
-        Label6.Location = New Point(40, 319)
+        Label6.Location = New Point(44, 297)
         Label6.Name = "Label6"
         Label6.Size = New Size(141, 15)
         Label6.TabIndex = 10
@@ -166,19 +155,32 @@ Partial Class Pre19ClientsForm
         myaudl.BackColor = Color.DarkSlateGray
         myaudl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         myaudl.ForeColor = SystemColors.Control
-        myaudl.Location = New Point(189, 315)
+        myaudl.Location = New Point(187, 293)
         myaudl.Name = "myaudl"
         myaudl.Size = New Size(75, 23)
         myaudl.TabIndex = 11
         myaudl.Text = "Download"
         myaudl.UseVisualStyleBackColor = False
         ' 
+        ' page2
+        ' 
+        page2.BackColor = Color.DarkSlateGray
+        page2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        page2.ForeColor = SystemColors.Control
+        page2.Location = New Point(403, 298)
+        page2.Name = "page2"
+        page2.Size = New Size(75, 23)
+        page2.TabIndex = 12
+        page2.Text = "Next"
+        page2.UseVisualStyleBackColor = False
+        ' 
         ' Pre19ClientsForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.DarkSlateGray
-        ClientSize = New Size(347, 394)
+        ClientSize = New Size(490, 333)
+        Controls.Add(page2)
         Controls.Add(myaudl)
         Controls.Add(Label6)
         Controls.Add(Label5)
@@ -190,15 +192,12 @@ Partial Class Pre19ClientsForm
         Controls.Add(Label1)
         Controls.Add(vapedl)
         Controls.Add(risedl)
-        Controls.Add(Back)
         FormBorderStyle = FormBorderStyle.None
         Name = "Pre19ClientsForm"
         Text = "Pre19ClientsForm"
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents Back As Button
     Friend WithEvents risedl As Button
     Friend WithEvents vapedl As Button
     Friend WithEvents Label1 As Label
@@ -210,4 +209,5 @@ Partial Class Pre19ClientsForm
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents myaudl As Button
+    Friend WithEvents page2 As Button
 End Class
