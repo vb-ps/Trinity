@@ -32,10 +32,12 @@ Partial Class Form1
         ext = New Button()
         BackgroundWorker1 = New ComponentModel.BackgroundWorker()
         Panel1 = New Panel()
+        anticheatsform = New Button()
         userpanelr = New Panel()
         MENUNAME = New Label()
         SelectionBOx = New Panel()
         opnmodsfolder = New Button()
+        Discord = New LinkLabel()
         CType(Icon, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         userpanelr.SuspendLayout()
@@ -56,7 +58,7 @@ Partial Class Form1
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(10, 339)
+        Label1.Location = New Point(4, 339)
         Label1.Name = "Label1"
         Label1.Size = New Size(88, 15)
         Label1.TabIndex = 1
@@ -112,11 +114,11 @@ Partial Class Form1
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.White
-        Label5.Location = New Point(10, 326)
+        Label5.Location = New Point(4, 326)
         Label5.Name = "Label5"
         Label5.Size = New Size(114, 13)
         Label5.TabIndex = 8
-        Label5.Text = "Trinity Build 5142025"
+        Label5.Text = "Trinity Build 5252025"
         ' 
         ' DATE2
         ' 
@@ -144,6 +146,7 @@ Partial Class Form1
         ' Panel1
         ' 
         Panel1.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(64))
+        Panel1.Controls.Add(anticheatsform)
         Panel1.Controls.Add(userpanelr)
         Panel1.Controls.Add(crackedpre19clients)
         Panel1.Controls.Add(freeclients)
@@ -154,6 +157,21 @@ Partial Class Form1
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(144, 368)
         Panel1.TabIndex = 11
+        ' 
+        ' anticheatsform
+        ' 
+        anticheatsform.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(64))
+        anticheatsform.FlatAppearance.BorderSize = 0
+        anticheatsform.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(0), CByte(64), CByte(50))
+        anticheatsform.FlatStyle = FlatStyle.Flat
+        anticheatsform.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        anticheatsform.ForeColor = SystemColors.Control
+        anticheatsform.Location = New Point(4, 260)
+        anticheatsform.Name = "anticheatsform"
+        anticheatsform.Size = New Size(141, 44)
+        anticheatsform.TabIndex = 5
+        anticheatsform.Text = "Anti-Cheats"
+        anticheatsform.UseVisualStyleBackColor = False
         ' 
         ' userpanelr
         ' 
@@ -170,7 +188,7 @@ Partial Class Form1
         MENUNAME.AutoSize = True
         MENUNAME.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         MENUNAME.ForeColor = SystemColors.Control
-        MENUNAME.Location = New Point(287, 11)
+        MENUNAME.Location = New Point(289, 7)
         MENUNAME.Name = "MENUNAME"
         MENUNAME.Size = New Size(132, 15)
         MENUNAME.TabIndex = 43
@@ -195,12 +213,24 @@ Partial Class Form1
         opnmodsfolder.Text = "Mods Folder"
         opnmodsfolder.UseVisualStyleBackColor = False
         ' 
+        ' Discord
+        ' 
+        Discord.AutoSize = True
+        Discord.LinkColor = Color.RoyalBlue
+        Discord.Location = New Point(146, 7)
+        Discord.Name = "Discord"
+        Discord.Size = New Size(47, 15)
+        Discord.TabIndex = 46
+        Discord.TabStop = True
+        Discord.Text = "Discord"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.DarkSlateGray
         ClientSize = New Size(639, 363)
+        Controls.Add(Discord)
         Controls.Add(opnmodsfolder)
         Controls.Add(SelectionBOx)
         Controls.Add(MENUNAME)
@@ -232,5 +262,7 @@ Partial Class Form1
     Friend WithEvents MENUNAME As Label
     Friend WithEvents SelectionBOx As Panel
     Friend WithEvents opnmodsfolder As Button
+    Friend WithEvents Discord As LinkLabel
+    Friend WithEvents anticheatsform As Button
 
 End Class

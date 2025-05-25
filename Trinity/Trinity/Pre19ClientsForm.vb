@@ -33,7 +33,8 @@ Public Class Pre19ClientsForm
     End Sub
 
     Private Sub risedl_Click(sender As Object, e As EventArgs) Handles risedl.Click
-        DownloadFile("https://github.com/vb-ps/RiseCrack/releases/download/rise/RISE.CRSCK.rar")
+        MsgBox("After running for the first time, put the --no-update back since the update check is broken.", MsgBoxStyle.Critical, Title:="Attention")
+        DownloadFile("https://github.com/vb-ps/Clientene/releases/download/hgfdc/Rise.6.5.3.zip")
     End Sub
 
     Private Sub vapedl_Click(sender As Object, e As EventArgs) Handles vapedl.Click

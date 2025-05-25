@@ -190,4 +190,22 @@ Public Class Form1
             MsgBox("An error occurred while trying to open the mods folder: " & ex.Message, MsgBoxStyle.Critical, "Error")
         End Try
     End Sub
+
+
+
+    Private Sub Discord_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Discord.LinkClicked
+        Try
+            Process.Start(New ProcessStartInfo With {
+                    .FileName = "https://discord.com/invite/VAbGZbKmCC",
+                    .UseShellExecute = True
+                })
+        Catch ex As Exception
+            MsgBox("Unable to open the link: " & ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+    Private Sub anticheatsform_Click(sender As Object, e As EventArgs) Handles anticheatsform.Click
+        switchpanel(anticheatform)
+        MENUNAME.Text = "|| Anticheat's Form ||"
+    End Sub
 End Class

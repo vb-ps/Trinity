@@ -91,4 +91,20 @@ Public Class CrackedClientsForm
             MsgBox("Download failed: " & ex.Message, MsgBoxStyle.Critical, "Error")
         End Try
     End Sub
+
+    Private Sub kryptondl_Click(sender As Object, e As EventArgs) Handles kryptondl.Click
+        DownloadFile("https://github.com/pollutedness/Krypton-Crack/raw/refs/heads/main/krypton%20ezzz.jar")
+    End Sub
+
+    Private Sub prestigedl_Click(sender As Object, e As EventArgs) Handles prestigedl.Click
+        DownloadFile("https://gitlab.com/3000IQPlay/Prestige/-/raw/main/Prestige9-20240814/Prestige-1.20.4.jar?ref_type=heads")
+    End Sub
+
+    Private Sub thunderhackdl_Click(sender As Object, e As EventArgs) Handles thunderhackdl.Click
+        DownloadFile("https://github.com/WalmartSolutions/ThunderHack-Deluxe/blob/main/ThunderHack-b0.0.7-Cracked.jar")
+    End Sub
+
+    Private Sub bloodydl_Click(sender As Object, e As EventArgs) Handles bloodydl.Click
+        DownloadFile("https://github.com/WalmartSolutions/Bloody-1.0.1/raw/refs/heads/main/Bloody-v1.0.1.jar")
+    End Sub
 End Class

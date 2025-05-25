@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="anticheatform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Cracked1.12.2-1.21.5.vb">
       <SubType>Form</SubType>
     </Compile>

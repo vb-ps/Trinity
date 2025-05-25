@@ -19,3 +19,9 @@ C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.genr
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\ref\Trinity.dll
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.FreeClientsForm.resources
 C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.Pre19ClientsFormPage2.resources
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\User\source\repos\Trinity\Trinity\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.vbproj.AssemblyReference.cache
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.vbproj.Up2Date
+C:\Users\User\source\repos\Trinity\Trinity\obj\Debug\net8.0-windows\Trinity.anticheatform.resources

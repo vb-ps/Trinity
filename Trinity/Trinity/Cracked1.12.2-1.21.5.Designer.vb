@@ -34,6 +34,14 @@ Partial Class CrackedClientsForm
         Label4 = New Label()
         Label5 = New Label()
         Label6 = New Label()
+        Label7 = New Label()
+        Label8 = New Label()
+        Label9 = New Label()
+        Label10 = New Label()
+        kryptondl = New Button()
+        prestigedl = New Button()
+        thunderhackdl = New Button()
+        bloodydl = New Button()
         SuspendLayout()
         ' 
         ' futuredl
@@ -102,9 +110,9 @@ Partial Class CrackedClientsForm
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(75, 31)
         Label1.Name = "Label1"
-        Label1.Size = New Size(97, 15)
+        Label1.Size = New Size(101, 15)
         Label1.TabIndex = 7
-        Label1.Text = "Mio (Safe 1.21.1"
+        Label1.Text = "Mio (Safe 1.21.1)"
         ' 
         ' Label2
         ' 
@@ -112,9 +120,9 @@ Partial Class CrackedClientsForm
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(57, 79)
         Label2.Name = "Label2"
-        Label2.Size = New Size(115, 15)
+        Label2.Size = New Size(119, 15)
         Label2.TabIndex = 8
-        Label2.Text = "Rusher (Safe 1.21.1"
+        Label2.Text = "Rusher (Safe 1.21.1)"
         ' 
         ' Label3
         ' 
@@ -156,12 +164,100 @@ Partial Class CrackedClientsForm
         Label6.TabIndex = 12
         Label6.Text = "Boze V61 (1.21.1 Fabric)"
         ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(257, 31)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(153, 15)
+        Label7.TabIndex = 13
+        Label7.Text = "Krypton (Unchecked 1.21)"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(252, 80)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(158, 13)
+        Label8.TabIndex = 14
+        Label8.Text = "Prestige 9 (Safe Fabric 1.20.4)"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(249, 126)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(161, 15)
+        Label9.TabIndex = 15
+        Label9.Text = "Thunderhack (Fabric 1.20.1)"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label10.Location = New Point(286, 173)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(124, 15)
+        Label10.TabIndex = 16
+        Label10.Text = "Bloody (1.20+ Fabric)"
+        ' 
+        ' kryptondl
+        ' 
+        kryptondl.BackColor = Color.DarkSlateGray
+        kryptondl.Location = New Point(410, 27)
+        kryptondl.Name = "kryptondl"
+        kryptondl.Size = New Size(75, 23)
+        kryptondl.TabIndex = 20
+        kryptondl.Text = "Download"
+        kryptondl.UseVisualStyleBackColor = False
+        ' 
+        ' prestigedl
+        ' 
+        prestigedl.BackColor = Color.DarkSlateGray
+        prestigedl.Location = New Point(410, 75)
+        prestigedl.Name = "prestigedl"
+        prestigedl.Size = New Size(75, 23)
+        prestigedl.TabIndex = 21
+        prestigedl.Text = "Download"
+        prestigedl.UseVisualStyleBackColor = False
+        ' 
+        ' thunderhackdl
+        ' 
+        thunderhackdl.BackColor = Color.DarkSlateGray
+        thunderhackdl.Location = New Point(410, 122)
+        thunderhackdl.Name = "thunderhackdl"
+        thunderhackdl.Size = New Size(75, 23)
+        thunderhackdl.TabIndex = 22
+        thunderhackdl.Text = "Download"
+        thunderhackdl.UseVisualStyleBackColor = False
+        ' 
+        ' bloodydl
+        ' 
+        bloodydl.BackColor = Color.DarkSlateGray
+        bloodydl.Location = New Point(410, 169)
+        bloodydl.Name = "bloodydl"
+        bloodydl.Size = New Size(75, 23)
+        bloodydl.TabIndex = 23
+        bloodydl.Text = "Download"
+        bloodydl.UseVisualStyleBackColor = False
+        ' 
         ' CrackedClientsForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.DarkSlateGray
         ClientSize = New Size(490, 333)
+        Controls.Add(bloodydl)
+        Controls.Add(thunderhackdl)
+        Controls.Add(prestigedl)
+        Controls.Add(kryptondl)
+        Controls.Add(Label10)
+        Controls.Add(Label9)
+        Controls.Add(Label8)
+        Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(Label5)
         Controls.Add(Label4)
@@ -193,4 +289,12 @@ Partial Class CrackedClientsForm
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents kryptondl As Button
+    Friend WithEvents prestigedl As Button
+    Friend WithEvents thunderhackdl As Button
+    Friend WithEvents bloodydl As Button
 End Class

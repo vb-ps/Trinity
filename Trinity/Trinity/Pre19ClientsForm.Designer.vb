@@ -26,7 +26,6 @@ Partial Class Pre19ClientsForm
         vapedl = New Button()
         Label1 = New Label()
         Label2 = New Label()
-        Label3 = New Label()
         slinkydl = New Button()
         opaldl = New Button()
         Label4 = New Label()
@@ -41,7 +40,7 @@ Partial Class Pre19ClientsForm
         risedl.BackColor = Color.DarkSlateGray
         risedl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         risedl.ForeColor = SystemColors.Control
-        risedl.Location = New Point(187, 58)
+        risedl.Location = New Point(187, 27)
         risedl.Name = "risedl"
         risedl.Size = New Size(75, 23)
         risedl.TabIndex = 1
@@ -53,7 +52,7 @@ Partial Class Pre19ClientsForm
         vapedl.BackColor = Color.DarkSlateGray
         vapedl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         vapedl.ForeColor = SystemColors.Control
-        vapedl.Location = New Point(187, 230)
+        vapedl.Location = New Point(191, 222)
         vapedl.Name = "vapedl"
         vapedl.Size = New Size(75, 23)
         vapedl.TabIndex = 2
@@ -65,40 +64,29 @@ Partial Class Pre19ClientsForm
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = SystemColors.ButtonFace
-        Label1.Location = New Point(21, 62)
+        Label1.Location = New Point(21, 31)
         Label1.Name = "Label1"
         Label1.Size = New Size(164, 15)
         Label1.TabIndex = 3
-        Label1.Text = "Rise 6.5.1 (Unchecked 1.8.9)"
+        Label1.Text = "Rise 6.5.3 (Unchecked 1.8.9)"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = SystemColors.ButtonFace
-        Label2.Location = New Point(20, 234)
+        Label2.Location = New Point(20, 226)
         Label2.Name = "Label2"
         Label2.Size = New Size(165, 15)
         Label2.TabIndex = 4
         Label2.Text = "Vape 4.17 (Unchecked 1.8.9)"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 5.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = SystemColors.ButtonFace
-        Label3.Location = New Point(12, 9)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(306, 10)
-        Label3.TabIndex = 5
-        Label3.Text = "Dev note : These take a while to download so it might not say download complete instantly"
         ' 
         ' slinkydl
         ' 
         slinkydl.BackColor = Color.DarkSlateGray
         slinkydl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         slinkydl.ForeColor = SystemColors.Control
-        slinkydl.Location = New Point(187, 116)
+        slinkydl.Location = New Point(187, 81)
         slinkydl.Name = "slinkydl"
         slinkydl.Size = New Size(75, 23)
         slinkydl.TabIndex = 6
@@ -110,7 +98,7 @@ Partial Class Pre19ClientsForm
         opaldl.BackColor = Color.DarkSlateGray
         opaldl.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         opaldl.ForeColor = SystemColors.Control
-        opaldl.Location = New Point(187, 169)
+        opaldl.Location = New Point(187, 141)
         opaldl.Name = "opaldl"
         opaldl.Size = New Size(75, 23)
         opaldl.TabIndex = 7
@@ -122,7 +110,7 @@ Partial Class Pre19ClientsForm
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ButtonFace
-        Label4.Location = New Point(41, 120)
+        Label4.Location = New Point(37, 85)
         Label4.Name = "Label4"
         Label4.Size = New Size(144, 15)
         Label4.TabIndex = 8
@@ -133,7 +121,7 @@ Partial Class Pre19ClientsForm
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 6.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = SystemColors.ButtonFace
-        Label5.Location = New Point(5, 175)
+        Label5.Location = New Point(5, 147)
         Label5.Name = "Label5"
         Label5.Size = New Size(180, 12)
         Label5.TabIndex = 9
@@ -187,7 +175,6 @@ Partial Class Pre19ClientsForm
         Controls.Add(Label4)
         Controls.Add(opaldl)
         Controls.Add(slinkydl)
-        Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(vapedl)
@@ -202,7 +189,6 @@ Partial Class Pre19ClientsForm
     Friend WithEvents vapedl As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents slinkydl As Button
     Friend WithEvents opaldl As Button
     Friend WithEvents Label4 As Label
